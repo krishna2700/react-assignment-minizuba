@@ -1,0 +1,80 @@
+.custom-header {
+  background-color: #2196f3;
+  color: white;
+}
+
+.MuiDataGrid-columnHeaderRow {
+  background-color: #f2f2f2;
+}
+
+.custom-row {
+  background-color: #f5f5f5;
+}
+
+.package-type-1 {
+  color: white;
+  background-color: #ffcccb;
+}
+
+.package-type-2 {
+  background-color: #c2f0c2;
+}
+
+.package-type-3 {
+  background-color: #b3e0ff;
+}
+
+.package-type-4 {
+  background-color: #ffe5b3;
+}
+
+.custom-toolbar {
+  background-color: #2196f3;
+  color: white;
+  padding: 10px;
+}
+
+.MuiDataGrid-root .MuiDataGrid-columnsContainer {
+  background-color: #e0e0e0;
+  margin-right: 16px;
+}
+
+.MuiDataGrid-root
+  .MuiDataGrid-columnsContainer
+  .MuiDataGrid-colCell:last-child {
+  padding-right: 0;
+}
+
+.MuiDataGrid-root .MuiDataGrid-columnsContainer .MuiDataGrid-colCell {
+  background-color: #e0e0e0;
+}
+
+.custom-data-grid {
+  width: 100%;
+}
+.custom-padding {
+  padding: "20px";
+}
+
+@media only screen and (max-width: 600px) {
+  .custom-data-grid {
+    height: 300px !important;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .custom-data-grid {
+    height: 400px !important;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .custom-data-grid {
+    height: 510px !important;
+  }
+}
+@media only screen and (min-width: 1425px) {
+  .custom-data-grid {
+    height: 850px !important;
+  }
+}
