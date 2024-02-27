@@ -52,8 +52,8 @@
 .custom-data-grid {
   width: 100%;
 }
-.custom-padding {
-  padding: "20px";
+.customPadding {
+  padding: 20px;
 }
 
 @media only screen and (max-width: 600px) {

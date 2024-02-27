@@ -59,9 +59,9 @@ const OrderLinesList = () => {
   ];
 
   return (
-    <div className='custom-padding'>
+    <div className="customPadding">
       {loading ? (
-        <div>Loading...</div>
+        <div className="customPadding">Loading...</div>
       ) : (
         <DataGrid
           className="custom-data-grid"
